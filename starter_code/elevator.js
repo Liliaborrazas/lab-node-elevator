@@ -20,7 +20,7 @@ class Elevator {
   floorDown() { }
   call() { }
   log() {
-     console.log("Direction: " + this.direction + " | Floor: " + this.floor);
+     console.log(`Direction: ${this.direction} | Floor: ${this.floor}`);
     }
 }
 
