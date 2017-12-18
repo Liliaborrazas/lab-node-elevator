@@ -16,7 +16,11 @@ class Elevator {
     }
   _passengersEnter() { }
   _passengersLeave() { }
-  floorUp() { }
+  floorUp() {
+  if((this.floor + 1 ) < this.MAXFLOOR){
+    this.floor += 1;
+  }else console.log("The last floor is the 10th")
+  }
   floorDown() { }
   call() { }
   log() {
